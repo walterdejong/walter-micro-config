@@ -1,0 +1,18 @@
+{
+    "Ctrl-up": "SelectUp",
+    "Ctrl-down": "SelectDown",
+    "Delete": "Cut",
+    "Ctrl-J": "command-edit:goto ",
+    "Ctrl-F": "Find",
+    "Ctrl-G": "FindNext",
+    "Ctrl-T": "AddTab",
+    "Ctrl-N": "NextTab",
+    "Alt-[": "PreviousTab",
+    "Alt-]": "NextTab",
+    "CtrlRightSq": "NextTab",
+    "Ctrl-P": "Autocomplete",
+    "Ctrl-X": "ShellMode",
+    "Alt-5": "JumpToMatchingBrace",
+    "Alt-/": "lua:comment.comment",
+    "CtrlUnderscore": "lua:comment.comment"
+}

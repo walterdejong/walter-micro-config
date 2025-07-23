@@ -1,0 +1,40 @@
+# JBlow Moneygreen
+#
+# * background should be a dark green like #062626
+#   - there is no good emulation of that color in xterm-256
+# * foreground should be a light skin color like #d3b58c
+#
+#color-link default "#d3b58c"
+color-link default "144,black"
+color-link comment "40"
+color-link identifier "144"
+color-link constant "144"
+color-link constant.string "44"
+color-link statement "white"
+color-link symbol "white"
+color-link preproc "42"
+color-link type "42"
+color-link special "42"
+color-link underlined "cyan"
+color-link error "red"
+color-link todo "black,226"
+color-link hlsearch "black,cyan"
+color-link statusline "black,#C5C5C5"
+color-link tabbar "#1D1F21,#C5C8C6"
+color-link indent-char "#505050"
+color-link line-number "144"
+color-link current-line-number "11"
+color-link diff-added "#00AF00"
+color-link diff-modified "#FFAF00"
+color-link diff-deleted "#D70000"
+color-link gutter-error "red"
+color-link gutter-warning "orange"
+color-link cursor-line "235"
+color-link color-column "7,52"
+#color-link symbol.brackets "#96CBFE"
+#No extended types (bool in C, etc.)
+#color-link type.extended "default"
+#Plain brackets
+color-link match-brace "black,cyan"
+color-link tab-error "#D75F5F"
+color-link trailingws "#D75F5F"
