@@ -6,10 +6,10 @@
     "Ctrl-G": "FindNext",
     "Ctrl-T": "AddTab",
     "Ctrl-N": "NextTab",
+    "Ctrl-P": "PreviousTab",
     "Alt-[": "PreviousTab",
     "Alt-]": "NextTab",
     "CtrlRightSq": "NextTab",
-    "Ctrl-P": "Autocomplete",
     "Alt-5": "JumpToMatchingBrace",
     "Alt-/": "lua:comment.comment",
     "CtrlUnderscore": "lua:comment.comment"
