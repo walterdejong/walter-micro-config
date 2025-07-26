@@ -1,25 +1,24 @@
 # JBlow Moneygreen
 #
-# * background should be a dark green like #062626
-#   - there is no good emulation of that color in xterm-256
-# * foreground should be a light skin color like #d3b58c
+# * 24-bit truecolor
+# * use `COLORTERM=truecolor MICRO_TRUECOLOR=1 micro`
 #
-#color-link default "#d3b58c"
-color-link default "144,black"
-color-link comment "40"
+color-link default "#d3b58c,#062626"
+#color-link default "144,black"
+color-link comment "#00cc00"
 color-link identifier "144"
 color-link constant "144"
 color-link constant.string "44"
-color-link statement "white"
-color-link symbol "white"
-color-link preproc "42"
-color-link type "42"
-color-link special "42"
-color-link underlined "cyan"
+color-link statement "#ffffff"
+color-link symbol "#d3b58c"
+color-link preproc "115"
+color-link type "115"
+color-link special "115"
+color-link underlined "#00cccc"
 color-link error "red"
-color-link todo "black,226"
-color-link hlsearch "black,cyan"
-color-link statusline "black,#C5C5C5"
+color-link todo "#000000,#cccc00"
+color-link hlsearch "#000000,#00cccc"
+color-link statusline "#000000,#d3b58c"
 color-link tabbar "#1D1F21,#C5C8C6"
 color-link indent-char "#505050"
 color-link line-number "144"
@@ -35,6 +34,6 @@ color-link color-column "7,52"
 #No extended types (bool in C, etc.)
 #color-link type.extended "default"
 #Plain brackets
-color-link match-brace "black,cyan"
+color-link match-brace "#000000,#00cccc"
 color-link tab-error "#D75F5F"
 color-link trailingws "#D75F5F"
