@@ -1,4 +1,6 @@
 {
+    "Ctrl-left": "WordLeft",
+    "Ctrl-right": "WordRight",
     "Ctrl-up": "SelectUp",
     "Ctrl-down": "SelectDown",
     "Ctrl-J": "command-edit:goto ",
