@@ -1,0 +1,8 @@
+{
+    "colorscheme": "jblow-moneygreen",
+    "hlsearch": true,
+    "rmtrailingws": true,
+    "ftoptions": false,
+    "lsp.formatOnSave": false,
+    "lsp.server": "python=pyright,go=go-pls,c=clangd,cpp=clangd,rust=rust-analyzer"
+}
